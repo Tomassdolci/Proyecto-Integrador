@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "rm";
+    src: url("../../get_schwifty.ttf");
+}
+.card{
+    transform-style: preserve-3d;
+    transition: transform 0.3s ease-out;
+}
+.card:hover {
+    transform: rotateY(10deg);
+    box-shadow: 0 0 40px rgba(255, 255, 255, 0.3);
+    text-shadow: 0 0 20px rgb(255, 255, 255);
+}
+.card h2{
+    font-family: rm,Arial, sans-serif;
+    color: rgb(74, 6, 246);
+    text-shadow: -1px -1px 0 rgb(133, 241, 8), 1px -1px 0 rgb(133, 241, 8), -1px 1px 0 rgb(133, 241, 8), 0px 1px 0 rgb(133, 241, 8);
+}
+
+.card p{
+    font-family:cursive;
+    color: rgb(72, 233, 31);
+}
