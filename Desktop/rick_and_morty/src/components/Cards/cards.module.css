@@ -1,0 +1,17 @@
+.infomain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    text-align: justify;
+}
+
+.infocard{
+    border-radius: 10px;
+    background-color: rgb(51, 11, 88);
+    display:flow-root;
+    flex-direction:unset;
+    justify-content:space-around;
+    align-items: baseline;
+    text-align: center;
+}
